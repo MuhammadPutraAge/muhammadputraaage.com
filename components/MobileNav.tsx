@@ -29,9 +29,9 @@ const MobileNav = () => {
         <div className="mt-32 mb-40 text-center text-2xl">
           <SheetClose asChild>
             <Link href="/">
-              <h1 className="text-4xl font-semibold">
+              <p className="text-4xl font-semibold">
                 Age<span className="text-accent">.</span>
-              </h1>
+              </p>
             </Link>
           </SheetClose>
         </div>

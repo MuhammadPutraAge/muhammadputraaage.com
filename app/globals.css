@@ -24,4 +24,8 @@
   .wrapper {
     @apply mx-auto max-w-7xl px-8;
   }
+
+  .hero-title {
+    @apply text-3xl xl:text-5xl leading-[1.1] font-semibold;
+  }
 }

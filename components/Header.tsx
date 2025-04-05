@@ -8,9 +8,9 @@ const Header = () => {
   return (
     <header className="wrapper py-8 xl:py-12 text-white flex items-center justify-between">
       <Link href="/">
-        <h1 className="text-4xl font-semibold">
+        <p className="text-4xl font-semibold">
           Age<span className="text-accent">.</span>
-        </h1>
+        </p>
       </Link>
 
       <div className="hidden xl:flex items-center gap-8">
