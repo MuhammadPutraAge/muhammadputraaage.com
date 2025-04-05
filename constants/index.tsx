@@ -164,3 +164,38 @@ export const SKILLS = {
     },
   ],
 };
+
+export const PROJECTS = [
+  {
+    num: "01",
+    category: "Web Development",
+    title: "PrepWise - AI Powered Interview Preparation Platform",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, officiis.",
+    stack: [
+      { name: "Typescript" },
+      { name: "Next.js" },
+      { name: "Tailwind CSS" },
+      { name: "Firebase" },
+    ],
+    image: "/projects/prepwise.png",
+    live: "",
+    github: "",
+  },
+  {
+    num: "02",
+    category: "Web Development",
+    title: "#D Developer Portfolio Website",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, officiis.",
+    stack: [
+      { name: "Typescript" },
+      { name: "React" },
+      { name: "Tailwind CSS" },
+      { name: "Three.js" },
+    ],
+    image: "/projects/3d-portfolio.png",
+    live: "",
+    github: "",
+  },
+];
