@@ -1,7 +1,7 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import { CiMenuFries } from "react-icons/ci";
+import { RiMenu5Line } from "react-icons/ri";
 import {
   Sheet,
   SheetClose,
@@ -19,7 +19,7 @@ const MobileNav = () => {
   return (
     <Sheet>
       <SheetTrigger className="flex justify-center items-center">
-        <CiMenuFries className="text-[32px] text-accent" />
+        <RiMenu5Line className="text-[32px] text-accent" />
       </SheetTrigger>
 
       <SheetContent className="flex flex-col px-8">
