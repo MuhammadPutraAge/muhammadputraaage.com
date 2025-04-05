@@ -29,3 +29,11 @@
     @apply text-3xl xl:text-5xl leading-[1.1] font-semibold;
   }
 }
+
+@utility text-outline {
+  -webkit-text-stroke: 1px #ffffff;
+}
+
+@utility text-outline-hover {
+  -webkit-text-stroke: 1px #f97316;
+}
