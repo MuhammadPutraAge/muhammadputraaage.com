@@ -169,7 +169,7 @@ export const PROJECTS = [
   {
     num: "01",
     category: "Web Development",
-    title: "PrepWise - AI Powered Interview Preparation Platform",
+    title: "PrepWise - AI Interview Platform",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, officiis.",
     stack: [
@@ -185,7 +185,7 @@ export const PROJECTS = [
   {
     num: "02",
     category: "Web Development",
-    title: "#D Developer Portfolio Website",
+    title: "3D Developer Portfolio Website",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, officiis.",
     stack: [

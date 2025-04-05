@@ -42,8 +42,8 @@ const Work = () => {
                 {project.num}
               </p>
 
-              <h2 className="text-3xl font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
-                {project.category} project
+              <h2 className="text-3xl font-bold text-white group-hover:text-accent transition-all duration-500 capitalize">
+                {project.title}
               </h2>
 
               <p className="text-white/60">{project.description}</p>
