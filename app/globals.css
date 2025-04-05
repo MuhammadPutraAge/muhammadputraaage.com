@@ -5,10 +5,10 @@
 
 @theme {
   --font-jetbrainsMono: var(--font-jetbrainsMono);
-  
+
   --color-primary: #1c1c22;
-  --color-accent: #F97316;
-  --color-accent-hover: #ea580c ;
+  --color-accent: #f97316;
+  --color-accent-hover: #ea580c;
 }
 
 @layer base {
@@ -17,5 +17,11 @@
   }
   body {
     @apply bg-primary text-white font-jetbrainsMono leading-loose;
+  }
+}
+
+@layer components {
+  .wrapper {
+    @apply mx-auto max-w-7xl px-8;
   }
 }

@@ -2,7 +2,14 @@
 
 import { usePathname } from "next/navigation";
 import { CiMenuFries } from "react-icons/ci";
-import { Sheet, SheetClose, SheetContent, SheetDescription, SheetTitle, SheetTrigger } from "./ui/sheet";
+import {
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetDescription,
+  SheetTitle,
+  SheetTrigger,
+} from "./ui/sheet";
 import Link from "next/link";
 import { LINKS } from "@/constants";
 
@@ -18,13 +25,15 @@ const MobileNav = () => {
       <SheetContent className="flex flex-col px-8">
         <SheetTitle />
         <SheetDescription />
-        
+
         <div className="mt-32 mb-40 text-center text-2xl">
-          <Link href="/">
-            <h1 className="text-4xl font-semibold">
-              Age<span className="text-accent">.</span>
-            </h1>
-          </Link>
+          <SheetClose asChild>
+            <Link href="/">
+              <h1 className="text-4xl font-semibold">
+                Age<span className="text-accent">.</span>
+              </h1>
+            </Link>
+          </SheetClose>
         </div>
 
         <nav className="flex flex-col gap-8 justify-center items-center">
