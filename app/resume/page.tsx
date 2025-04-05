@@ -13,10 +13,10 @@ const Resume = () => {
       <div className="wrapper w-full">
         <Tabs defaultValue="experience" className="flex flex-col xl:flex-row">
           <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
-            <TabsTrigger value="experience">Experience</TabsTrigger>
-            <TabsTrigger value="education">Education</TabsTrigger>
-            <TabsTrigger value="skills">Skills</TabsTrigger>
-            <TabsTrigger value="about-me">About me</TabsTrigger>
+            <TabsTrigger value="experience" className="cursor-pointer">Experience</TabsTrigger>
+            <TabsTrigger value="education" className="cursor-pointer">Education</TabsTrigger>
+            <TabsTrigger value="skills" className="cursor-pointer">Skills</TabsTrigger>
+            <TabsTrigger value="about-me" className="cursor-pointer">About me</TabsTrigger>
           </TabsList>
 
           <div className="min-h-[70vh] w-full">
