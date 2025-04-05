@@ -103,14 +103,14 @@ const Work = () => {
             >
               {PROJECTS.map((project) => (
                 <SwiperSlide key={project.num} className="w-full">
-                  <div className="h-[460px] relative group flex justify-center items-center bg-pink-50/20">
+                  <div className="h-[460px] relative group flex justify-center items-center bg-primary">
                     <div className="absolute inset-0 size-full bg-black/10 z-10" />
                     <div className="relative size-full">
                       <Image
                         src={project.image}
                         alt=""
                         fill
-                        className="object-cover"
+                        className="object-contain"
                       />
                     </div>
                   </div>
