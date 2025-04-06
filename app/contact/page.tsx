@@ -41,7 +41,7 @@ const Contact = () => {
                   <Input
                     type="email"
                     placeholder="ex., john.doe@email.com"
-                    name="name"
+                    name="email"
                     className="w-full"
                   />
                 </label>
@@ -71,6 +71,7 @@ const Contact = () => {
                 <Textarea
                   className="h-[200px]"
                   placeholder="Share your thoughts or inquiries..."
+                  name="message"
                 />
               </label>
 
