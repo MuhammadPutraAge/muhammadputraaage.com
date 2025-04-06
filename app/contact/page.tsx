@@ -1,16 +1,5 @@
 import ContactContainer from "@/components/ContactContainer";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import {
-  Select,
-  SelectContent,
-  SelectGroup,
-  SelectItem,
-  SelectLabel,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
-import { Textarea } from "@/components/ui/textarea";
+import ContactForm from "@/components/ContactForm";
 import { INFO } from "@/constants";
 
 const Contact = () => {
@@ -19,66 +8,7 @@ const Contact = () => {
       <div className="wrapper">
         <div className="flex flex-col xl:flex-row gap-10">
           <div className="x:w-[54%] order-2 xl:order-none">
-            <form className="flex flex-col gap-6 px-5 py-10 md:p-10 bg-[#27272c] rounded-xl">
-              <h3 className="text-3xl text-accent">Let&apos;s work together</h3>
-              <p className="text-white/60">
-                Whether you need a new app, a platform upgrade, or a unique
-                project built, I&apos;m here to help bring it to life.
-              </p>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <label htmlFor="name">
-                  <p className="text-lg mb-1">Full Name</p>
-                  <Input
-                    type="text"
-                    placeholder="ex., John Doe"
-                    name="name"
-                    className="w-full"
-                  />
-                </label>
-                <label htmlFor="email">
-                  <p className="text-lg mb-1">Email Address</p>
-                  <Input
-                    type="email"
-                    placeholder="ex., john.doe@email.com"
-                    name="email"
-                    className="w-full"
-                  />
-                </label>
-              </div>
-
-              <label htmlFor="service">
-                <p className="text-lg mb-1">Service</p>
-                <Select>
-                  <SelectTrigger className="w-full">
-                    <SelectValue placeholder="ex., Web Development" />
-                  </SelectTrigger>
-
-                  <SelectContent>
-                    <SelectGroup>
-                      <SelectLabel>Select a Service</SelectLabel>
-                      <SelectItem value="web">Web Development</SelectItem>
-                      <SelectItem value="mobile">
-                        Mobile App Development
-                      </SelectItem>
-                    </SelectGroup>
-                  </SelectContent>
-                </Select>
-              </label>
-
-              <label htmlFor="message">
-                <p className="text-lg mb-1">Message</p>
-                <Textarea
-                  className="h-[200px]"
-                  placeholder="Share your thoughts or inquiries..."
-                  name="message"
-                />
-              </label>
-
-              <Button size="md" className="max-w-40 self-end">
-                Send Message
-              </Button>
-            </form>
+            <ContactForm />
           </div>
 
           <div className="flex-1 flex items-center xl:justify-end order-1 xl:order-none mb-8 xl:mb-0">
