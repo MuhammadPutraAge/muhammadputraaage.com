@@ -21,7 +21,7 @@ const Work = () => {
   const [project, setProject] = useState(PROJECTS[0]);
 
   const handleSlideChange = (swiper: SwiperType) => {
-    const currentIndex = swiper.activeIndex;
+    const currentIndex = swiper.realIndex;
     setProject(PROJECTS[currentIndex]);
   };
 
@@ -99,6 +99,7 @@ const Work = () => {
               spaceBetween={30}
               slidesPerView={1}
               className="xl:h-[520px] mb-12"
+              loop
               onSlideChange={handleSlideChange}
             >
               {PROJECTS.map((project) => (

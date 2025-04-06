@@ -22,7 +22,7 @@ const MobileNav = () => {
         <RiMenu5Line className="text-[32px] text-accent" />
       </SheetTrigger>
 
-      <SheetContent className="flex flex-col px-8">
+      <SheetContent className="flex flex-col px-8 h-screen overflow-y-scroll">
         <SheetTitle />
         <SheetDescription />
 
@@ -36,7 +36,7 @@ const MobileNav = () => {
           </SheetClose>
         </div>
 
-        <nav className="flex flex-col gap-8 justify-center items-center">
+        <nav className="flex flex-col gap-8 justify-center items-center mb-40">
           {LINKS.map((link) => (
             <SheetClose key={link.path} asChild>
               <Link
