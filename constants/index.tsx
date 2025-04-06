@@ -215,11 +215,11 @@ export const INFO = [
   {
     icon: <FaLinkedin />,
     title: "Linkedin",
-    value: "https://www.linkedin.com/in/muhammadputraage",
+    value: "Muhammad Putra Age",
   },
   {
     icon: <FaGithub />,
     title: "Github",
-    value: "https://github.com/muhammadputraage",
+    value: "muhammadputraage",
   },
 ];
