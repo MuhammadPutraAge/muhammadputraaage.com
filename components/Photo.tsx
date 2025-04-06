@@ -19,7 +19,7 @@ const Photo = () => {
             opacity: 1,
             transition: { delay: 2.4, duration: 0.4, ease: "easeInOut" },
           }}
-          className="size-[298px] xl:size-[498px] absolute bottom-2 xl:bottom-4"
+          className="size-[284px] xl:size-[490px] absolute bottom-2 left-[9px]"
         >
           <Image
             src="/assets/profile.svg"
@@ -51,7 +51,7 @@ const Photo = () => {
               rotate: [120, 360],
             }}
             transition={{
-              duration: 10,
+              duration: 5,
               repeat: Infinity,
               repeatType: "reverse",
             }}
