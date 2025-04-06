@@ -16,6 +16,9 @@ import {
   SiPostgresql,
 } from "react-icons/si";
 
+export const CV_LINK =
+  "https://drive.google.com/file/d/1rvWWHmi8tlCAh3HwX6EVulD0TtTPPKrG/view?usp=sharing";
+
 export const LINKS = [
   {
     name: "home",

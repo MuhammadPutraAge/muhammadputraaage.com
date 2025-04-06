@@ -1,6 +1,7 @@
 import Photo from "@/components/Photo";
 import Socials from "@/components/Socials";
 import { Button } from "@/components/ui/button";
+import { CV_LINK } from "@/constants";
 import { FiDownload } from "react-icons/fi";
 
 const Home = () => {
@@ -14,19 +15,21 @@ const Home = () => {
             <span className="text-accent">Muhammad Putra Age</span>
           </h1>
           <p className="max-w-[500px] mb-9 text-white/80">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-            sapiente eius tempora.
+            Frontend Engineer crafting modern, responsive, and user-friendly web
+            and mobile application.
           </p>
 
           <div className="flex flex-col xl:flex-row gap-8 items-center">
-            <Button
-              variant="outline"
-              size="lg"
-              className="uppercase flex items-center gap-2"
-            >
-              <span>Download CV</span>
-              <FiDownload />
-            </Button>
+            <a href={CV_LINK} target="_blank" rel="noopener noreferrer">
+              <Button
+                variant="outline"
+                size="lg"
+                className="uppercase flex items-center gap-2"
+              >
+                <span>Download CV</span>
+                <FiDownload />
+              </Button>
+            </a>
 
             <div className="mb-8 xl:mb-0">
               <Socials
