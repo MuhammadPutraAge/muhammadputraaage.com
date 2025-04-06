@@ -55,14 +55,14 @@ export const SERVICES = [
     title: "Web Development",
     description:
       "Modern, responsive websites focused on speed, design, and user experience.",
-    href: "",
+    href: "/contact",
   },
   {
     num: "02",
     title: "Mobile App Development",
     description:
       "Cross-platform mobile apps with native feel and seamless performance.",
-    href: "",
+    href: "/contact",
   },
 ];
 
@@ -187,8 +187,8 @@ export const PROJECTS = [
       { name: "Firebase" },
     ],
     image: "/projects/prepwise.png",
-    live: "",
-    github: "",
+    live: "https://prepwise.muhammadputraage.com",
+    github: "https://github.com/MuhammadPutraAge/PrepWise",
   },
   {
     num: "02",
@@ -198,8 +198,8 @@ export const PROJECTS = [
       "Immersive 3D portfolio showcasing skills, projects, and creative visual experience.",
     stack: [{ name: "React" }, { name: "Tailwind CSS" }, { name: "Three.js" }],
     image: "/projects/3d-portfolio.png",
-    live: "",
-    github: "",
+    live: "https://3d.muhammadputraage.com",
+    github: "https://github.com/MuhammadPutraAge/3D-Portfolio-Website",
   },
 ];
 

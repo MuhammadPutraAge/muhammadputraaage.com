@@ -3,7 +3,6 @@
 import { PROJECTS } from "@/constants";
 import { useState } from "react";
 import { motion } from "motion/react";
-import Link from "next/link";
 import {
   Tooltip,
   TooltipContent,
@@ -63,7 +62,7 @@ const Work = () => {
               <div className="border border-white/20" />
 
               <div className="flex items-center gap-4">
-                <Link href={project.live}>
+                <a href={project.live} target="_blank" rel="noreferrer noopener">
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="size-[70px] rounded-full bg-white/5 flex justify-center items-center group cursor-pointer">
@@ -75,9 +74,9 @@ const Work = () => {
                       </TooltipContent>
                     </Tooltip>
                   </TooltipProvider>
-                </Link>
+                </a>
 
-                <Link href={project.github}>
+                <a href={project.github} target="_blank" rel="noreferrer noopener">
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="size-[70px] rounded-full bg-white/5 flex justify-center items-center group cursor-pointer">
@@ -89,7 +88,7 @@ const Work = () => {
                       </TooltipContent>
                     </Tooltip>
                   </TooltipProvider>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
