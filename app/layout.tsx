@@ -16,6 +16,20 @@ export const metadata: Metadata = {
   title: "Muhammad Putra Age's Portfolio Website",
   description:
     "Muhammad Putra Age - Frontend Engineer specializing in building modern, scalable web & mobile applications. Explore my portfolio and let's create something amazing together!",
+  openGraph: {
+    title: "Muhammad Putra Age's Portfolio Website",
+    description:
+      "Muhammad Putra Age - Frontend Engineer specializing in building modern, scalable web & mobile applications. Explore my portfolio and let's create something amazing together!",
+    images: ["/assets/og-image.png"],
+    siteName: "Muhammad Putra Age's Portfolio Website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Muhammad Putra Age's Portfolio Website",
+    description:
+      "Muhammad Putra Age - Frontend Engineer specializing in building modern, scalable web & mobile applications. Explore my portfolio and let's create something amazing together!",
+    images: ["/assets/og-image.png"],
+  },
 };
 
 export default function RootLayout({
