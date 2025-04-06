@@ -77,7 +77,7 @@ export const ABOUT = {
     },
     {
       fieldName: "Email",
-      fieldValue: "muhammadputraage@gmail.com",
+      fieldValue: "contact@muhammadputraage.com",
     },
     {
       fieldName: "Experience",
@@ -207,7 +207,7 @@ export const INFO = [
   {
     icon: <FaEnvelope />,
     title: "Email",
-    value: "muhammadputraage@gmail.com",
+    value: "contact@muhammadputraage.com",
   },
   {
     icon: <FaLinkedin />,
