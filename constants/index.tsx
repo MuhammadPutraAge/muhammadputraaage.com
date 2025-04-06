@@ -54,14 +54,14 @@ export const SERVICES = [
     num: "01",
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, officiis.",
+      "Modern, responsive websites focused on speed, design, and user experience.",
     href: "",
   },
   {
     num: "02",
     title: "Mobile App Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, officiis.",
+      "Cross-platform mobile apps with native feel and seamless performance.",
     href: "",
   },
 ];
@@ -69,7 +69,7 @@ export const SERVICES = [
 export const ABOUT = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis enim doloribus omnis nam!",
+    "Passionate frontend engineer crafting beautiful, functional interfaces with modern technologies.",
   info: [
     {
       fieldName: "Name",
@@ -101,7 +101,7 @@ export const ABOUT = {
 export const EXPERIENCE = {
   title: "My experience",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis enim doloribus omnis nam!",
+    "Hands-on experience building real-world projects, collaborating with teams, and solving complex challenges.",
   items: [
     {
       company: "Runchise (runchise.com)",
@@ -124,7 +124,7 @@ export const EXPERIENCE = {
 export const EDUCATION = {
   title: "My education",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis enim doloribus omnis nam!",
+    "Studied information systems with emphasis on software development, UI/UX, and digital technologies.",
   items: [
     {
       institution: "Institut Teknologi Kalimantan",
@@ -137,7 +137,7 @@ export const EDUCATION = {
 export const SKILLS = {
   title: "My skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis enim doloribus omnis nam!",
+    "Experienced in web and mobile development using modern frameworks, tools, and best practices.",
   items: [
     {
       icon: <SiTypescript />,
@@ -180,7 +180,7 @@ export const PROJECTS = [
     category: "Web Development",
     title: "PrepWise - AI Interview Platform",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, officiis.",
+      "AI-powered interview preparation platform with real-time feedback and guidance.",
     stack: [
       { name: "Next.js" },
       { name: "Tailwind CSS" },
@@ -195,7 +195,7 @@ export const PROJECTS = [
     category: "Web Development",
     title: "3D Developer Portfolio Website",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, officiis.",
+      "Immersive 3D portfolio showcasing skills, projects, and creative visual experience.",
     stack: [{ name: "React" }, { name: "Tailwind CSS" }, { name: "Three.js" }],
     image: "/projects/3d-portfolio.png",
     live: "",
