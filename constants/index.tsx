@@ -1,4 +1,10 @@
-import { FaGithub, FaLinkedin, FaInstagram, FaYoutube } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaInstagram,
+  FaYoutube,
+  FaEnvelope,
+} from "react-icons/fa";
 import {
   SiTypescript,
   SiNextdotjs,
@@ -197,5 +203,23 @@ export const PROJECTS = [
     image: "/projects/3d-portfolio.png",
     live: "",
     github: "",
+  },
+];
+
+export const INFO = [
+  {
+    icon: <FaEnvelope />,
+    title: "Email",
+    value: "muhammadputraage@gmail.com",
+  },
+  {
+    icon: <FaLinkedin />,
+    title: "Linkedin",
+    value: "https://www.linkedin.com/in/muhammadputraage",
+  },
+  {
+    icon: <FaGithub />,
+    title: "Github",
+    value: "https://github.com/muhammadputraage",
   },
 ];
