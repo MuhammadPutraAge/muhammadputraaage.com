@@ -179,7 +179,6 @@ export const PROJECTS = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, officiis.",
     stack: [
-      { name: "Typescript" },
       { name: "Next.js" },
       { name: "Tailwind CSS" },
       { name: "Firebase" },
@@ -194,12 +193,7 @@ export const PROJECTS = [
     title: "3D Developer Portfolio Website",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, officiis.",
-    stack: [
-      { name: "Typescript" },
-      { name: "React" },
-      { name: "Tailwind CSS" },
-      { name: "Three.js" },
-    ],
+    stack: [{ name: "React" }, { name: "Tailwind CSS" }, { name: "Three.js" }],
     image: "/projects/3d-portfolio.png",
     live: "",
     github: "",

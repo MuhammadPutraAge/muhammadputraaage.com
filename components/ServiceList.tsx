@@ -32,7 +32,7 @@ const ServiceList = () => {
             </Link>
           </div>
 
-          <h2 className="text-3xl font-bold leading-none text-white group-hover:text-accent transition-all duration-500">
+          <h2 className="text-3xl font-bold text-white group-hover:text-accent transition-all duration-500">
             {service.title}
           </h2>
           <p className="text-white/60">{service.description}</p>
