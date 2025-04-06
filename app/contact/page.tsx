@@ -90,7 +90,7 @@ const Contact = () => {
 
                   <div className="flex-1">
                     <p className="text-white/60">{info.title}</p>
-                    <h3 className="text-lg">{info.value}</h3>
+                    <h3 className="text-sm xl:text-lg">{info.value}</h3>
                   </div>
                 </li>
               ))}
