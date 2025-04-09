@@ -13,6 +13,7 @@ const JetBrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  icons: "/favicon.ico",
   title: "Muhammad Putra Age's Portfolio Website",
   description:
     "Muhammad Putra Age - Frontend Engineer specializing in building modern, scalable web & mobile applications. Explore my portfolio and let's create something amazing together!",
