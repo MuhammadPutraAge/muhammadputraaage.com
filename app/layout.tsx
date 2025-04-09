@@ -13,6 +13,9 @@ const JetBrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  icons: [
+    { rel: "icon", type: "image/x-icon", url: "/favicon.ico", sizes: "48x48" },
+  ],
   title: "Muhammad Putra Age",
   description:
     "Hi, I'm Muhammad Putra Age, a Frontend Engineer specializing in crafting modern, responsive, and user-friendly web and mobile applications. Explore my portfolio to see my work and services.",
